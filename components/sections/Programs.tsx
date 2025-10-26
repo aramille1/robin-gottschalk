@@ -45,8 +45,8 @@ export default function Programs() {
 
           <div className="mb-12">
             <p className="text-gray-800 text-lg leading-relaxed font-medium font-[family-name:var(--font-work-sans">
-              `Together, we'll explore and shape the business that's truly meant for
-              you — built from your personality, strengths, and values, from A to Z.`
+{              `Together, we'll explore and shape the business that's truly meant for
+              you — built from your personality, strengths, and values, from A to Z.`}
             </p>
           </div>
 

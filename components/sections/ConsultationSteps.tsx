@@ -22,15 +22,15 @@ const ConsultationSteps = () => {
   ];
 
   return (
-    <section id="consultation-steps" className="bg-slate-900 min-h-screen pb-12 pt-30 px-4 sm:px-6 lg:px-30">
+    <section id="consultation-steps" className="bg-[#0A1C28] min-h-screen pb-12 pt-30 px-4 sm:px-6 lg:px-30">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="mb-12 sm:mb-16">
           <div className="mb-6">
-            <span className="text-gray-300 text-base sm:text-lg font-medium">Getting started</span>
-            <div className="w-16 sm:w-20 h-0.5 bg-red-500 mt-2"></div>
+            <span className="text-gray-400 text-lg font-light font-[family-name:var(--font-workSans)]">Getting started</span>
+            <div className="w-40 h-0.5 bg-[#DD5046] mt-2"></div>
           </div>
-          <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-light tracking-wide">
+          <h1 className="text-white text-4xl font-light tracking-wide font-[family-name:var(--font-garamond)]">
             What to do now:
           </h1>
         </div>

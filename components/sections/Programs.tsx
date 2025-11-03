@@ -36,7 +36,7 @@ export default function Programs() {
                 <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center mt-1">
                   <Check className="w-4 h-4 text-red-500 stroke-[3]" />
                 </div>
-                <p className="text-gray-700 text-lg leading-relaxed font-[family-name:var(--font-work-sans)]">
+                <p className="text-gray-700 text-lg leading-relaxed font-[family-name:var(--font-workSans)]">
                   {benefit}
                 </p>
               </div>
@@ -44,7 +44,7 @@ export default function Programs() {
           </div>
 
           <div className="mb-12">
-            <p className="text-gray-800 text-lg leading-relaxed font-medium font-[family-name:var(--font-work-sans">
+            <p className="text-gray-800 text-lg leading-relaxed font-medium font-[family-name:var(--font-workSans)]">
 {              `Together, we'll explore and shape the business that's truly meant for
               you — built from your personality, strengths, and values, from A to Z.`}
             </p>
@@ -54,7 +54,7 @@ export default function Programs() {
             <div className="flex justify-center">
             <Link
             href="/start-now"
-            className="bg-[#DD5046] text-white px-10 py-4 text-lg font-medium hover:bg-[#c43d33] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+            className="font-[family-name:var(--font-workSans)] bg-[#DD5046] text-white px-10 py-4 text-lg font-medium hover:bg-[#c43d33] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
           >
             Book your free clarity call
           </Link>

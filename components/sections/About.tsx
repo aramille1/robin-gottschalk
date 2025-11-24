@@ -24,7 +24,7 @@ export default function About() {
               <div className="w-12 h-12 flex items-center justify-center mb-4">
                 <Leaf className="w-10 h-10 text-[#DD5046]" />
               </div>
-              <h3 className="text-white text-xl font-medium mb-4 font-[family-name:var(--font-garamond)]">
+              <h3 className="text-white text-xl font-medium mb-4 font-[family-name:var(--font-mond)]">
                 1:1 Coaching & Consulting
               </h3>
               <p className="text-[#9EC0D1]/70 leading-relaxed text-center font-[family-name:var(--font-workSans)]">
@@ -64,6 +64,41 @@ export default function About() {
           </div>
         </div>
       </div>
+
+      <div className="w-full min-h-screen flex items-center justify-center p-6 mt-10">
+      <div className="bg-[#1f333f] max-w-5xl w-full rounded-2xl p-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div className="text-white space-y-6">
+          <h1 className="text-4xl font-[family-name:var(--font-garamond)]">Hi, I’m Robin</h1>
+
+          <p className='text-[#9EC0D1]/70 leading-relaxed font-[family-name:var(--font-workSans)]'>
+            a business coach and creative consultant helping people build lives
+            and businesses that truly fit them.
+          </p>
+
+          <p className='text-[#9EC0D1]/70 leading-relaxed font-[family-name:var(--font-workSans)]'>
+            After 15 years of exploring different paths myself, I’ve learned that
+            there’s no single formula for fulfillment — only your own way.
+          </p>
+
+          <p className='text-[#9EC0D1]/70 leading-relaxed font-[family-name:var(--font-workSans)]'>
+            My work helps you find clarity, courage, and structure to create
+            something that’s 100% you.
+          </p>
+
+          <button className="bg-[#e45b4a] text-white px-6 py-3 font-medium font-[family-name:var(--font-workSans)]" >
+            Book your free clarity call
+          </button>
+        </div>
+
+        <div className="flex justify-center md:justify-end items-center">
+          <img
+            src="/robin.png"
+            alt="Robin photo"
+            className="w-2/3 max-w-sm"
+          />
+        </div>
+      </div>
+    </div>
     </section>
   );
 }

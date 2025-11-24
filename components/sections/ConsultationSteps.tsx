@@ -6,18 +6,20 @@ const ConsultationSteps = () => {
   const steps = [
     {
       number: "1",
-      title: "Initial Consultation",
-      description: "Gemeinsam stellen wir dir ein auf dich und deine individuellen Bedürfnisse zugeschnittenes Paket zusammen. Du kannst kombinieren aus den Bereichen:"
+      title: "Book your free discovery call",
+      description: "Book your call via the button below and fill out the short form. Everyone starts with their own story and motivation — what matters most is your desire to create change. I can help you ignite the fire, but the spark has to come from you."
     },
     {
       number: "2",
-      title: "Initial Consultation",
-      description: "Gemeinsam stellen wir dir ein auf dich und deine individuellen Bedürfnisse zugeschnittenes Paket zusammen. Du kannst kombinieren aus den Bereichen:"
+      title: `Let’s connect`,
+      description: `I’ll get back to you within
+72 hours to schedule a brief
+15-minute call. We’ll discuss your situation, see if we’re a good fit, and clarify your goals, expectations, and any questions you have.`
     },
     {
       number: "3",
-      title: "Initial Consultation",
-      description: "Gemeinsam stellen wir dir ein auf dich und deine individuellen Bedürfnisse zugeschnittenes Paket zusammen. Du kannst kombinieren aus den Bereichen:"
+      title: "Deep dive session",
+      description: `If it feels right for both of us, we’ll plan a 60-minute video call. You’ll get a clear overview of the program, what to expect, and how we’ll tackle your specific challenges — plus a first draft of your personal roadmap.`
     }
   ];
 
@@ -43,11 +45,11 @@ const ConsultationSteps = () => {
               className="bg-gray-50 p-6 sm:p-8 rounded-none shadow-sm hover:shadow-md transition-shadow duration-200"
             >
               <div className="mb-4 sm:mb-6">
-                <span className="text-5xl sm:text-6xl lg:text-7xl font-light text-red-500 leading-none">
+                <span className="text-5xl sm:text-6xl lg:text-7xl font-light text-red-500 leading-none font-[family-name:var(--font-garamond)]">
                   {step.number}
                 </span>
               </div>
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 font-[family-name:var(--font-garamond)] leading-tight">
                 {step.title}
               </h2>
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed">

@@ -39,9 +39,9 @@ export default function MyProgram() {
                 <li>• Feel lost, but know deep down you’re meant to create something of your own?</li>
               </ul>
 
-              <p className="text-sm text-gray-800 mb-4 font-[family-name:var(--font-garamond)]">
+              <p className="text-gray-800 mb-4 font-[family-name:var(--font-garamond)]">
                 <strong className="text-lg">This program starts with YOU.</strong><br />
-                Together, we’ll explore your strengths, personality, and passions — and connect them with real market needs to uncover your business idea. The one that feels right, makes sense, and excites you to bring it to life.
+                <br />Together, we’ll explore your strengths, personality, and passions — and connect them with real market needs to uncover your business idea. The one that feels right, makes sense, and excites you to bring it to life.
               </p>
 
           {/* CTA Button */}
@@ -50,7 +50,7 @@ export default function MyProgram() {
             href="/start-now"
             className="bg-[#DD5046] text-white px-5 lg:px-10 py-4 text-lg font-medium hover:bg-[#c43d33] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
           >
-            Book your free clarity call
+            Start aligning now
           </Link>
               </div>
             </div>
@@ -79,9 +79,9 @@ export default function MyProgram() {
                 <li>• Work hard but see little progress, results, or revenue?</li>
               </ul>
 
-              <p className="text-sm text-gray-800 mb-4 font-[family-name:var(--font-garamond)]">
+              <p className="text-gray-800 mb-4 font-[family-name:var(--font-garamond)]">
                 <strong className="text-lg">In this program, we’ll transform your idea into a solid, profitable business.</strong><br />
-                We’ll go through every key milestone — from branding and concept development to marketing and sales — so you can move forward with clarity, confidence, and momentum.
+                <br />We’ll go through every key milestone — from branding and concept development to marketing and sales — so you can move forward with clarity, confidence, and momentum.
               </p>
 
           {/* CTA Button */}
@@ -90,7 +90,7 @@ export default function MyProgram() {
             href="/start-now"
             className="bg-[#DD5046] text-white px-5 lg:px-10 py-4 text-lg font-medium hover:bg-[#c43d33] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
           >
-            Book your free clarity call
+            Start aligning now
           </Link>
             </div>
               </div>
